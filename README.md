@@ -1,3 +1,4 @@
+
 # Leaderboard 🏆
 
 ## A solo programming project that heighlights the use of webpack to bundle JavaScript, ES6 syntax, callbacks and promise
@@ -19,7 +20,7 @@
 
 # 🚀 Live Demo <a name="live-demo"></a>
 
-[Leaderboard 🏆]()
+
 
 ### Server
 
@@ -43,7 +44,7 @@
 1. Installed Git.
 2. Create a local directory that you want to clone the repository.
 3. Open the command prompt in the created directory.
-4. On the terminal run this command git clone <>
+
 5. Install the dev dependencies for linters run npm install.
 6. run: `npm  i --save-dev webpack webpack-cli webpack-dev-server @babel/core @babel/preset-env babel-loader style-loader css-loader sass-loader html-webpack-plugin mini-css-extract-plugin `
 
