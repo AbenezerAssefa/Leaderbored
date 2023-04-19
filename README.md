@@ -1,15 +1,8 @@
 # Leaderboard 🏆
 
-<div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="120"  height="auto"/>
-  <br/>
-
-</div>
-
 ## A solo programming project that heighlights the use of webpack to bundle JavaScript, ES6 syntax, callbacks and promise
 
-# 🛠 Built With..
+# 🛠 Built With
 
 ### Tech Stack
 
@@ -26,7 +19,7 @@
 
 # 🚀 Live Demo <a name="live-demo"></a>
 
-[Leaderboard 🏆](https://salwa99.github.io/Leaderboard/)
+[Leaderboard 🏆]()
 
 ### Server
 
@@ -50,7 +43,7 @@
 1. Installed Git.
 2. Create a local directory that you want to clone the repository.
 3. Open the command prompt in the created directory.
-4. On the terminal run this command git clone <https://github.com/Salwa99/Leaderboard.git>
+4. On the terminal run this command git clone <>
 5. Install the dev dependencies for linters run npm install.
 6. run: `npm  i --save-dev webpack webpack-cli webpack-dev-server @babel/core @babel/preset-env babel-loader style-loader css-loader sass-loader html-webpack-plugin mini-css-extract-plugin `
 
@@ -78,7 +71,7 @@ After Installing all the packages run this command `npm run start` to start dev 
 
 ### To run the project, execute the following command
 
-- git clone <https://github.com/Salwa99/Leaderboard.git>
+- git clone <>
 - cd Leaderboard
 
 # Run tests
@@ -96,11 +89,10 @@ After Installing all the packages run this command `npm run start` to start dev 
 
 # 👥 Authors
 
-### 👤 Salwa Ballouti
+### 👤 Abenezer Assefa
 
-- GitHub: [@Salwa99](https://github.com/Salwa99)
-- Twitter: [@SalwaBallouti](https://twitter.com/salwa_ballouti)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/salwa-ballouti-096358251/)
+- GitHub: [@AbenezerAssefa](https://github.com/AbenezerAssefa)
+- LinkedIn: [Abenezer](https://www.linkedin.com/in/abenezer-assefa-386b25193)
 
 # 🔭 Future Features
 
