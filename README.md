@@ -1,12 +1,5 @@
 # Leaderboard 🏆
 
-<div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="120"  height="auto"/>
-  <br/>
-
-</div>
-
 ## A solo programming project that heighlights the use of webpack to bundle JavaScript, ES6 syntax, callbacks and promise
 
 # 🛠 Built With..
