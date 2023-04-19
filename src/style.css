@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url('http://4everstatic.com/pictures/850xX/abstract/purple-background,-lines-197041.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: rgb(169, 83, 240);
+  filter: brightness(110%);
+  text-shadow:
+    0 0 5px rgb(255, 255, 255),
+    0 0 10px #fff,
+    0 0 15px #fff,
+    0 0 20px #4eadec,
+    0 0 35px #4eadec,
+    0 0 40px #4eadec,
+    0 0 50px #4eadec,
+    0 0 75px #4eadec;
+  animation: pink 1.5s ease-in-out infinite alternate;
+  margin: 5%;
+  text-align: center;
+  font-size: 4rem;
+}
+
+h2 {
+  color: rgb(255, 251, 251);
+  font-size: 2rem;
+  text-shadow: rgb(243, 0, 231) 5px 0 10px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5% 10%;
+  gap: 30px;
+}
+
+.container1 {
+  width: 50%;
+}
+
+.recentScore {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scores {
+  border: 3px solid rgb(60, 160, 243);
+  background: rgb(133, 150, 229);
+  height: 30vh;
+  border-radius: 10px;
+  overflow-y: scroll;
+  box-shadow:
+    0 1px 2px 0 rgba(0, 255, 255, 0.7),
+    1px 2px 4px 0 rgba(0, 255, 255, 0.7),
+    2px 4px 8px 0 rgba(0, 255, 255, 0.7),
+    2px 4px 16px 0 rgba(0, 255, 255, 0.7);
+}
+
+.scores::-webkit-scrollbar {
+  display: none;
+}
+
+.scores p {
+  margin: 0;
+  padding: 4%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: rgb(233, 233, 233) 5px 0 10px;
+}
+
+.scores p:hover {
+  cursor: pointer;
+  color: rgb(67, 229, 250);
+}
+
+.scores p:nth-child(even) {
+  background-color: rgb(206, 206, 200);
+}
+
+.container2 {
+  width: 50%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+
+input {
+  outline: none;
+  padding: 3%;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  box-shadow:
+    0 1px 2px 0 rgba(235, 243, 243, 0.7),
+    1px 2px 4px 0 rgba(235, 243, 243, 0.7),
+    2px 4px 8px 0 rgba(235, 243, 243, 0.7),
+    2px 4px 16px 0 rgba(235, 243, 243, 0.7);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}
+
+input:focus {
+  border: 3px solid rgb(74, 197, 235);
+  box-shadow:
+    0 1px 2px 0 rgba(0, 255, 255, 0.7),
+    1px 2px 4px 0 rgba(0, 255, 255, 0.7),
+    2px 4px 8px 0 rgba(0, 255, 255, 0.7),
+    2px 4px 16px 0 rgba(0, 255, 255, 0.7);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  width: 35%;
+  height: 2.5rem;
+  background: rgb(70, 125, 197);
+  font-size: 1.2rem;
+  transition: all 0.6s ease-in;
+  text-shadow: rgb(233, 173, 230) 8px 0 13px;
+}
+
+button:hover {
+  box-shadow:
+    0 1px 2px 0 rgba(0, 255, 255, 0.7),
+    1px 2px 4px 0 rgba(0, 255, 255, 0.7),
+    2px 4px 8px 0 rgba(0, 255, 255, 0.7),
+    2px 4px 16px 0 rgba(0, 255, 255, 0.7);
+}
+
+#submitBtn {
+  align-self: end;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    margin: 0;
+    height: 100vh;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    margin: 10% 5%;
+  }
+
+  h1 {
+    font-size: 3rem;
+    padding-top: 5%;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .container1 {
+    width: 90%;
+  }
+
+  .container2 {
+    width: 90%;
+  }
+
+  .scores p {
+    font-size: 1rem;
+    overflow-x: hidden;
+  }
+
+  input {
+    font-size: 1rem;
+  }
+
+  button {
+    height: 2rem;
+    font-size: 0.8rem;
+  }
+
+  #submitBtn {
+    align-self: center;
+  }
+}
