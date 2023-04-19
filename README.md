@@ -2,7 +2,7 @@
 
 ## A solo programming project that heighlights the use of webpack to bundle JavaScript, ES6 syntax, callbacks and promise
 
-# 🛠 Built With
+# 🛠 Built With..
 
 ### Tech Stack
 
